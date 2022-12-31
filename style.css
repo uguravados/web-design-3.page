@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/** HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #874c8e;
+  background-color: #35424a;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  background-attachment: fixed ;
+  position: fixed;
+  width: 100%;
+}
+span {
+  color: #874c8e;
+}
+
+div.url a {
+  text-decoration: none;
+  align-content: space-between;
+  margin: 8px;
+  color: white;
+  font-size: 15px;
+}
+div.url a:hover {
+  cursor: pointer;
+  color: #874c8e;
+}
+/** MAİN */
+
+main {
+  background-image: url(./img/showcase.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 410px;
+  color: white;
+}
+
+div.text1 {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  padding: 150px 0px;
+  justify-content: center;
+}
+
+div.container1 {
+  display: flex;
+  justify-content: end;
+  background-color: #35424a;
+  padding: 20px;
+  color: white;
+  font-size: 14px;
+  justify-content: space-between;
+}
+
+button {
+  background-color: rgb(231, 50, 50);
+  border: none;
+  padding: 6px;
+  color: white;
+  font-size: 12px;
+}
+input{
+  margin-right: 5px;
+  padding: 5px;
+  padding-left: 70px;
+  border: none;
+}
+
+button,input:hover{
+  cursor: pointer;
+ 
+
+}
+
+
+/** DİV İMG */
+
+div.images {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px 2px;
+}
+
+img {
+  width: 110px;
+}
+
+/** FOOTER */
+
+footer {
+  background-color: #35424a;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-size: 17px;
+}
+.imgClarusway{
+width: 175px;
+margin-top: 10px;
+} 
